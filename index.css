@@ -112,10 +112,22 @@ body {
     height: 100%;
 }
 
-#sobre h2 {
+#sobre h2 {    
     text-align: center;
     color: #daa520;
     padding-bottom: 3%;
+}
+
+#sobre p{
+    padding-top: 10%;
+}
+
+#sobre img {
+    max-width: 50%;
+    border-radius: 100%;
+    display: inline-block;
+    
+    padding: 10px;
 }
 
 
@@ -288,6 +300,10 @@ footer {
     .one-hundred {
         font-size: calc(2.195945945945946vw + 43.13513513513514px);
     }
+    .one-hundre {
+        font-size: calc(1.195945945945946vw + 38.13513513513514px);
+    }
+    
 }
 @media (min-width: 1360px) {
     .sixteen {
@@ -309,6 +325,9 @@ footer {
     .one-hundred {
         font-size: calc(4.821428571428572vw + 7.428571428571429px);
     }
+    .one-hundre {
+        font-size: calc(2.821428571428572vw + 5.428571428571429px);
+    }
 }
 @media (min-width: 1920px) {
     .sixteen {
@@ -329,5 +348,8 @@ footer {
     
     .one-hundred {
         font-size: 100px;
+    }
+    .one-hundre {
+        font-size: 60px;
     }
 }
