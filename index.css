@@ -16,6 +16,7 @@ body {
 .cabecalho {
     background: #333;
     border-bottom: solid 5px #4faddb;
+    width: 100%;
     height: 80px;
     box-sizing: content-box;
     position: fixed;
@@ -85,7 +86,8 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(fundo_top.jpg);
+    background-image: url(fundo.png);
+    background-size: cover;
 }
 
 #inicio img {
@@ -96,13 +98,20 @@ body {
     right: -100%;
 }
 
-.title {
-    position: absolute;
+#name {
     top: 50%;
-    left: 7.2%;
+    text-align: center;    
+    padding-top: 15%;
 }
 
-/* ABOUT */
+#visao {
+    text-align: center;    
+    padding-top: 3%;
+    padding-bottom: 13%;
+    height: 30%;    
+}
+
+/* Sobre */
 
 .sobre {
     text-align: center;
@@ -122,50 +131,23 @@ body {
 
 #sobre p{
     padding-top: 10%;
+    padding-bottom: 25%;
 }
 
 #sobre img {
     max-width: 50%;
     border-radius: 100%;
-    display: inline-block;
-    
+    display: inline-block;    
     padding: 10px;
-}
-
-
-/* Experiencia */
-
-.xp {
-    text-align: center;
-    background-color: #252525;
-    padding-left: 30%;
-    padding-right: 30%;
-    padding-top: 10%;
-    padding-bottom: 13%;
-    height: 100%;
-}
-
-#xp h2 {
-    text-align: center;
-    color: #daa520;
-    padding-bottom: 3%;
-}
-
-#xp p {
-    text-align: center;
-    color: rgb(212, 212, 212);
-    padding-top: 1%;
-    padding-bottom: 1%
 }
 
 /*Formação*/
 
 .cursos {
-    background-color: #252525;
     padding-left: 30%;
     padding-right: 30%;
     padding-top: 10.5%;
-    padding-bottom: 13%;
+    padding-bottom: 25%;
     height: 100%;
 }
 
@@ -185,10 +167,35 @@ body {
 }
 
 
+/* Experiencia */
+
+.xp {
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 10%;
+    padding-bottom: 25%;
+    height: 100%;
+}
+
+#xp h2 {
+    text-align: center;
+    color: #daa520;
+    padding-bottom: 3%;
+}
+
+#xp p {
+    text-align: center;
+    color: rgb(212, 212, 212);
+    padding-top: 1%;
+    padding-bottom: 1%
+}
+
+
+
 /*Contatos*/
 
 .contatos {
-    background-color: #252525;
     padding-left: 30%;
     padding-right: 30%;
     padding-top: 10.5%;
@@ -214,32 +221,14 @@ body {
     padding-bottom: 1%;
 }
 
-
-/*link do github*/
-#link-git {
-text-decoration: none;
-color: rgb(36, 255, 91);
-top: 1%; 
-padding-bottom: 5%;
-padding-left: 39%;
-}
-
 /*rodape*/
 footer {
+    background-color: #272727;
     color: #ffffff;
     text-align: center;
-    background-color: #252525;
-    padding-top: 7.8%;
-    padding-bottom: 7.8%;
-}
-
-footer {
-    background-color: #747474;
-    padding-left: 13%;
-    padding-right: 13%;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    height: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;    
+    border-top: solid 2px #4faddb;
 }
 
 /*
